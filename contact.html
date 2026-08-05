@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Temitope Olaniran</title>
+  <meta name="description" content="Get in touch with Temitope Olaniran — IT Support Specialist and DevOps Cloud Engineering enthusiast." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="index.html" class="logo">Temitope<span>.O</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section-title">Get in Touch</h1>
+        <p class="section-subtitle">Open to IT support, system administration, and DevOps / cloud opportunities.</p>
+
+        <div class="contact-grid">
+          <div>
+            <h2 style="margin-bottom: 1.25rem;">Contact Details</h2>
+            <ul class="contact-list">
+              <li>
+                <span>
+                  <div class="label">Location</div>
+                  Ogba, Lagos, Nigeria
+                </span>
+              </li>
+              <li>
+                <span>
+                  <div class="label">Phone</div>
+                  <a href="tel:+2348137413196">+234 813 741 3196</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <div class="label">Email</div>
+                  <a href="mailto:temitopeolaniranj@gmail.com">temitopeolaniranj@gmail.com</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <div class="label">LinkedIn</div>
+                  <a href="https://www.linkedin.com/in/temitope-olaniran/" target="_blank" rel="noopener">View LinkedIn profile</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 style="margin-bottom: 1.25rem;">Send a Message</h2>
+            <form id="contact-form">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+              <p class="form-note" id="form-note" hidden>Thank you! Your message has been prepared in your email app.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Temitope Olaniran &middot; Built with static HTML/CSS/JS &middot; Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

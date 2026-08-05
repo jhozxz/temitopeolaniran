@@ -1,0 +1,13 @@
+# Personal / unrelated to portfolio site
+Telegram_Monitor/
+telegram_session.session
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
