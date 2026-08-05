@@ -139,8 +139,8 @@ main {
 }
 
 .portrait {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
@@ -152,14 +152,27 @@ main {
 
 @media (max-width: 480px) {
   .portrait {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 }
 
-.hero h1 {
-  font-size: clamp(2.2rem, 6vw, 3.4rem);
-  line-height: 1.15;
+.hero-greeting {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.hero-name {
+  font-size: clamp(2.4rem, 7vw, 4rem);
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.35rem;
+}
+
+.hero-role {
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
   margin-bottom: 1rem;
 }
 
